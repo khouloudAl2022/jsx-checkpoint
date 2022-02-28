@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "./Style.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{ border: "solid 1px black", maxWidth: "100vw" }}>
+        <h1 className="title-red">khouloud</h1>
+        <br />
+        <img src="/imageInSrc.png" alt="ddd" />
+        <br />
+        <img src="/imageInPublic.jpg" alt="dddkmm" />
+      </div>
+      <iframe
+        width={420}
+        height={345}
+        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+      ></iframe>
     </div>
   );
 }
